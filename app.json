@@ -1,0 +1,30 @@
+{
+  "name": "Slots",
+  "description": "",
+  "scripts": {
+  },
+  "env": {
+    "APIAI_ACCESS_TOKEN": {
+      "required": true
+    },
+    "APIAI_LANG": {
+      "required": true
+    },
+    "FB_PAGE_ACCESS_TOKEN": {
+      "required": true
+    },
+    "FB_VERIFY_TOKEN": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
