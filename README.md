@@ -1,19 +1,19 @@
-Slots
+Khe cắm 5 reels & 30 multipayline
 ===
 
-Skinnable slots game using CreateJS on the client side and node.js, express, mongoose, and passport on the server side.
-You can see it in its default state [here](http://oquistador-slots.herokuapp.com/).
+Slots Skinnable trò chơi sử dụng CreateJS ở phía khách hàng và node.js, express, mongoose, và hộ chiếu ở phía máy chủ.
+Bạn có thể nhìn thấy nó trong trạng thái mặc định của nó [ở đây](http://oquistador-slots.herokuapp.com/).
 
-Installation
+Cài đặt
+
 ---
 
     $ npm install
     $ grunt
     $ node app/app
     
-Configuration
+Cấu hình
 ---
 
-Most configuration can be done in the shared configuration file [app/config/shared.json]( https://github.com/oquistador/Slots/blob/master/app/config/shared.json). This JSON file gets merged into the client and server side scripts via [Grunt](https://github.com/gruntjs/grunt). All of the **presentation logic** is in [app/assets/javascripts/app.coffee](https://github.com/oquistador/Slots/blob/master/app/assets/javascripts/app.coffee) and all of the **win calculation logic** is in [app/spin.js](https://github.com/oquistador/Slots/blob/master/app/spin.js) if you need to tweak anything.
-
-Since this app uses the awesome node middleware [passport](https://github.com/jaredhanson/passport), there's *tons* of other authentication strategies you can use.
+Hầu hết cấu hình có thể được thực hiện trong tệp cấu hình chia sẻ file [app/config/shared.json]( https://github.com/oquistador/Slots/blob/master/app/config/shared.json). Tệp JSON này được hợp nhất vào các tập lệnh phía máy khách và máy chủ thông qua [Grunt](https://github.com/gruntjs/grunt). Tất cả ** trình bày logic ** là trong [app/assets/javascripts/app.coffee](https://github.com/oquistador/Slots/blob/master/app/assets/javascripts/app.coffee) Và tất cả các ** chiến thắng logic tính toán ** là trong [app/spin.js](https://github.com/oquistador/Slots/blob/master/app/spin.js) Nếu bạn cần phải tinh chỉnh bất cứ điều gì.
+Vì ứng dụng này sử dụng trình trung gian nút tuyệt vời [passport] (https://github.com/jaredhanson/passport), có * tấn * các chiến lược xác thực khác mà bạn có thể sử dụng.
